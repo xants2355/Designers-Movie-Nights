@@ -3129,9 +3129,10 @@ p {
   margin-top: 0px;
   margin-bottom: 8px;
   padding-left: 0px;
-  -webkit-align-self: flex-start;
-  -ms-flex-item-align: start;
-  align-self: flex-start;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
@@ -4689,6 +4690,32 @@ p {
   text-transform: uppercase;
 }
 
+.presenter {
+  margin-top: 0px;
+  margin-bottom: 8px;
+  padding-left: 0px;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  font-family: 'Francisgradientstd inside', sans-serif;
+  color: #ddd;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.presenter.blog-post-label {
+  padding-bottom: 43px;
+}
+
+.presenter.green {
+  color: #3db461;
+}
+
 @media screen and (max-width: 991px) {
   .event-speaker {
     text-align: left;
@@ -4957,6 +4984,10 @@ p {
 
   .event-movie-title {
     text-align: left;
+  }
+
+  .presenter {
+    margin-top: 26px;
   }
 }
 
@@ -5992,6 +6023,21 @@ p {
     -ms-flex-item-align: start;
     align-self: flex-start;
     font-size: 12vw;
+    text-align: left;
+  }
+
+  .presenter {
+    margin-top: 28px;
+    margin-bottom: 3px;
+    padding-left: 2px;
+    font-size: 7vw;
+    line-height: 100%;
+    text-align: center;
+  }
+
+  .presenter.blog-post-label {
+    margin-top: 0px;
+    padding-bottom: 0px;
     text-align: left;
   }
 }
