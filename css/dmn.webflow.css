@@ -3147,6 +3147,10 @@ p {
   padding-bottom: 43px;
 }
 
+.hero-claim.green {
+  color: #3db461;
+}
+
 .gdpr-section {
   display: -webkit-box;
   display: -webkit-flex;
