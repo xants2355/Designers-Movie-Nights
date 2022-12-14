@@ -3917,7 +3917,7 @@ p {
 .ticket-button.regular.absolut-right {
   position: absolute;
   left: auto;
-  top: -13%;
+  top: -8%;
   right: 25%;
   bottom: auto;
   border-radius: 4px;
@@ -3931,7 +3931,7 @@ p {
 .ticket-button.absolut-student {
   position: absolute;
   left: auto;
-  top: -17%;
+  top: -11%;
   right: 2%;
   bottom: auto;
 }
@@ -4595,11 +4595,12 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  grid-auto-flow: column;
   grid-auto-columns: 1fr;
-  grid-column-gap: 2rem;
-  grid-row-gap: 16px;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0rem;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
@@ -4714,6 +4715,10 @@ p {
 
 .presenter.green {
   color: #3db461;
+}
+
+.octogon-logo {
+  padding-top: 4px;
 }
 
 @media screen and (max-width: 991px) {
@@ -6363,7 +6368,31 @@ p {
   justify-self: stretch;
 }
 
-#w-node-e6290355-fdb6-efb8-8d4c-c1a688456e3e-c2766784 {
+#w-node-_35d7dcc8-9eb5-2153-88f0-1c953455ac9f-c2766784 {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+}
+
+#w-node-_4b7377a0-c705-5ef2-3872-8ac90a64f73b-c2766784 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column-align: stretch;
+  justify-self: stretch;
+}
+
+#w-node-_4b7377a0-c705-5ef2-3872-8ac90a64f751-c2766784 {
   -ms-grid-row: 1;
   grid-row-start: 1;
   -ms-grid-row-span: 1;
@@ -6374,7 +6403,7 @@ p {
   grid-column-end: 3;
 }
 
-#w-node-_35d7dcc8-9eb5-2153-88f0-1c953455ac9f-c2766784 {
+#w-node-_4b7377a0-c705-5ef2-3872-8ac90a64f754-c2766784 {
   -ms-grid-row: span 1;
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
@@ -6856,6 +6885,17 @@ p {
 }
 
 #w-node-af1dbdc6-a723-d93c-bba9-3a8aa402d6f7-ccecb9c2 {
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+}
+
+#w-node-a2b7e117-26f9-c3d6-0860-881eea409d8b-ccecb9c2 {
   -ms-grid-column-span: 1;
   grid-column-end: span 1;
   -ms-grid-column: span 1;
